@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <div class="metrics">
+        <h2>Social Media Metrics</h2>
+        <div class="metrics-container">
+          <div class="metric">
+            <h3>Followers</h3>
+            <p id="follower-count">Loading...</p>
+          </div>
+          <div class="metric">
+            <h3>Posts</h3>
+            <p id="post-count">Loading...</p>
+          </div>
+          <div class="metric">
+            <h3>Engagement rate</h3>
+            <p id="engagement-rate">Loading...</p>
+          </div>
+        </div>
+      </div>
+      <div class="analytics">
+        <h2>Social Media Analytics</h2>
+        <canvas id="analytics-chart"></canvas>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="index.js"></script>
+</html>
